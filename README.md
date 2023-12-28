@@ -16,8 +16,6 @@
 
 Built on Next.js 14, the events application stands as a comprehensive, full-stack platform for managing events. It serves as a hub, spotlighting diverse events taking place globally. Featuring seamless payment processing through Stripe, you have the capability to purchase tickets for any event or even initiate and manage your own events.
 
-If you're getting started and need assistance or face any bugs, join our active Discord community with over 27k+ members. It's a place where people help each other out.
-
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
 - Node.js
@@ -60,21 +58,6 @@ and many more, including code architecture and reusability
 ## <a name="quick-start">🤸 Quick Start</a>
 
 Follow these steps to set up the project locally on your machine.
-
-**Prerequisites**
-
-Make sure you have the following installed on your machine:
-
-- [Git](https://git-scm.com/)
-- [Node.js](https://nodejs.org/en)
-- [npm](https://www.npmjs.com/) (Node Package Manager)
-
-**Cloning the Repository**
-
-```bash
-git clone https://github.com/your-username/your-project.git
-cd your-project
-```
 
 **Installation**
 
@@ -121,27 +104,26 @@ Replace the placeholder values with your actual credentials
 
 ```bash
 npm start
+npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
 
+**Other Installation**
+- npx shadcn-ui@latest init
+- npm install uploadthing @uploadthing/react
+- npm install @clerk/nextjs
+- npm install @radix-ui/react-alert-dialog
+- npm install @radix-ui/react-select
+- npm install @radix-ui/react-separator
+- npm install query-string
+- npm install mongoose
+- npm install zod
+- npm install @stripe/stripe-js
 
-npx create-next-app@latest ./
-npx shadcn-ui@latest init
-npm install uploadthing @uploadthing/react
-npm install @clerk/nextjs
-npm install @radix-ui/react-alert-dialog
-npm install @radix-ui/react-select
-npm install @radix-ui/react-separator
-npm install query-string
-npm install mongoose
-npm install zod
-npm install @stripe/stripe-js
-
-
-npm run dev
-
+**Resources**
 
 https://ui.shadcn.com/docs/installation/next
 https://clerk.com/docs
 https://cloud.mongodb.com/
+https://uploadthing.com/dashboard
